@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -46,8 +47,8 @@ public class TestControllerServlet {
 	 * 
 	 */
 
-	@Test
-//	@Ignore
+	// @Test
+	@Ignore
 	public void testProcessRequest() throws ServletException, IOException {
 //		fail("Not yet implemented");
 		
